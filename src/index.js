@@ -1,1 +1,3 @@
-export { default as camelizeProps} from './camelizeProps';
+import camelizeProps from './camelizeProps';
+
+export default camelizeProps;
