@@ -1,4 +1,4 @@
-const snakeToCamel = require('./snakeToCamel');
+import snakeToCamel from './snakeToCamel';
 
 describe('snakeToCamel', () => {
   describe('when input has underline', () => {

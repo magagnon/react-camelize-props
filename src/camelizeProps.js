@@ -1,5 +1,5 @@
-const { createFactory } = require('react');
-const camelizeObjectAttrs = require('./camelizeObjectAttrs');
+import { createFactory } from 'react';
+import camelizeObjectAttrs from './camelizeObjectAttrs';
 
 const getDisplayName = WrappedComponent =>
   WrappedComponent.displayName || WrappedComponent.name || 'Component';
@@ -11,4 +11,4 @@ const camelizeProps = (WrappedComponent) => {
   return Component;
 };
 
-module.exports = camelizeProps;
+export default camelizeProps;

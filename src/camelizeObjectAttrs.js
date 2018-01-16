@@ -1,4 +1,5 @@
-const snakeToCamel = require('./snakeToCamel');
+import  snakeToCamel from './snakeToCamel';
+
 const { keys } = Object;
 
 /* eslint-disable no-param-reassign */
@@ -10,4 +11,4 @@ const camelizeObjectAttrs = attrs => keys(attrs).reduce((result, key) => {
 }, {});
 /* eslint-enable no-param-reassign */
 
-module.exports = camelizeObjectAttrs;
+export default camelizeObjectAttrs;

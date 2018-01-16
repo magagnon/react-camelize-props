@@ -1,4 +1,4 @@
-const camelizeObjectAttrs = require('./camelizeObjectAttrs');
+import camelizeObjectAttrs from './camelizeObjectAttrs';
 
 describe('camelizeObjectAttrs', () => {
   it('receives an object and returns a new object with all keys in camelCase', () => {

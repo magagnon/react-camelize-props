@@ -1,0 +1,1 @@
+'use strict';Object.defineProperty(exports,'__esModule',{value:!0});var _camelizeProps=require('./camelizeProps');Object.defineProperty(exports,'camelizeProps',{enumerable:!0,get:function get(){return _interopRequireDefault(_camelizeProps).default}});function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}

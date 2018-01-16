@@ -1,7 +1,7 @@
-const React = require('react');
-const { shallow } = require('enzyme');
+import React from 'react';
+import { shallow } from 'enzyme';
 
-const camelizeProps = require('./camelizeProps');
+import camelizeProps from './camelizeProps';
 
 const props = { first_name: 'Joe', last_name: 'Doe' };
 
