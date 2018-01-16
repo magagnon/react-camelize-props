@@ -1,0 +1,77 @@
+{
+  "name": "react-camelize-props",
+  "version": "1.0.0",
+  "description": "A HOC to deeply camelize React props keys",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test_watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willian/react-camelize-props.git"
+  },
+  "keywords": [
+    "map",
+    "obj",
+    "object",
+    "key",
+    "keys",
+    "value",
+    "values",
+    "val",
+    "iterate",
+    "camelize",
+    "camelcase",
+    "camel-case",
+    "camel",
+    "case",
+    "dash",
+    "hyphen",
+    "dot",
+    "underscore",
+    "separator",
+    "string",
+    "text",
+    "convert",
+    "deep",
+    "recurse",
+    "recursive",
+    "hoc",
+    "props",
+    "react",
+    "prop-types"
+  ],
+  "author": "Willian Fernandes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willian/react-camelize-props/issues"
+  },
+  "homepage": "https://github.com/willian/react-camelize-props#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.1.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^22.1.1",
+    "jest-enzyme": "^4.0.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "regenerator-runtime": "^0.11.1"
+  },
+  "peerDependencies": {
+    "react": ">= 0.13.0"
+  },
+  "jest": {
+    "coverageReporters": ["html", "text-summary"],
+    "setupFiles": [
+      "./setupEnzyme.js"
+    ],
+    "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js"
+  }
+}
