@@ -1,5 +1,3 @@
-"use strict";
-
 const { createFactory } = require('react');
 const camelizeObjectAttrs = require('./camelizeObjectAttrs');
 

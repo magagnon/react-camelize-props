@@ -1,5 +1,3 @@
-"use strict";
-
 const snakeToCamel = require('./snakeToCamel');
 const { keys } = Object;
 
