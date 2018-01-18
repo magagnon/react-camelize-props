@@ -4,8 +4,6 @@
   "description": "A HOC to deeply camelize React props keys",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rimraf dist && babel src --out-dir dist --ignore spec.js,test.js",
-    "prepublish": "npm run build",
     "test": "jest",
     "test_watch": "jest --watchAll"
   },
