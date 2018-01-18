@@ -7,6 +7,7 @@ describe('camelizeObjectAttrs', () => {
         first_name: 'Joe',
         'last-name': 'Doe',
         profileId: 1,
+        age: null,
       },
     };
     const result = {
@@ -14,6 +15,7 @@ describe('camelizeObjectAttrs', () => {
         firstName: 'Joe',
         lastName: 'Doe',
         profileId: 1,
+        age: null,
       },
     };
 

@@ -1,6 +1,6 @@
 {
   "name": "react-camelize-props",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A HOC to deeply camelize React props keys",
   "main": "dist/index.js",
   "scripts": {
