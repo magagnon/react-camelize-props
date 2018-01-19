@@ -1,5 +1,5 @@
 # react-camelize-props
-[![Build Status](https://travis-ci.org/willian/react-camelize-props.svg?branch=master)](https://travis-ci.org/willian/react-camelize-props)
+[![Build Status](https://circleci.com/gh/willian/react-camelize-props.svg?style=svg)](https://circleci.com/gh/willian/react-camelize-props)
 
 Sometimes you receive props from back-end with keys in snake_case, but you are
 using a linter to check if you are calling object's keys in camelCase form. You
