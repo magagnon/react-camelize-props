@@ -8,6 +8,7 @@ describe('camelizeObjectAttrs', () => {
         'last-name': 'Doe',
         profileId: 1,
         age: null,
+        weight_measurements: [160, 158, 150]
       },
     };
     const result = {
@@ -16,6 +17,7 @@ describe('camelizeObjectAttrs', () => {
         lastName: 'Doe',
         profileId: 1,
         age: null,
+        weightMeasurements: [160, 158, 150]
       },
     };
 
